@@ -13,24 +13,14 @@ body {
 	left: 0;
 	top: 0;
 	margin: 24px;
-	font-size: 4.2rem;
+	font-size: 2.8rem;
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width : 200px) and (max-width : 420px) {
 	.text-container {
-		font-size: 3rem !important;
-/*		hyphens: auto;*/
+		font-size: 4rem;
 	}
 }
-
-
-@media (min-width: 400px) {
-	.text-container {
-		font-size: 2.8rem !important;
-/*		hyphens: auto;*/
-	}
-}
-
 
 .logo-container {
 	position: fixed;
