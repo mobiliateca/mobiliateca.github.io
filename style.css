@@ -16,7 +16,7 @@ body {
 	font-size: 2.8rem;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 600px) {
 	.text-container {
 		font-size: 3rem !important;
 /*		hyphens: auto;*/
@@ -24,9 +24,9 @@ body {
 }
 
 
-@media (min-width: 480px) {
+@media (min-width: 400px) {
 	.text-container {
-		font-size: 3.4rem !important;
+		font-size: 3.8rem !important;
 /*		hyphens: auto;*/
 	}
 }
