@@ -16,12 +16,6 @@ body {
 	font-size: 48px;
 }
 
-@media (max-width: 600px) {
-	.text-container {
-		font-size: 80px !important;
-	}
-}
-
 .logo-container {
 	position: fixed;
 	bottom: 0;
@@ -50,3 +44,8 @@ a:hover {
 img.footer-logo {
 	margin: 24px;
 }
+
+@media screen and (max-width: 767px){
+ .text-container {
+    font-size: 36px !important;
+ }
